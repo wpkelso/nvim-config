@@ -3,6 +3,7 @@ require "launch"
 
 spec("plugin.autopairs")
 spec("plugin.colorscheme")
+spec("plugin.darklight")
 spec("plugin.gitsigns")
 spec("plugin.lspconfig")
 spec("plugin.lualine")
@@ -18,4 +19,7 @@ lang("clangd")
 lang("pylsp")
 lang("lua-ls")
 
+if vim.g.neovide then
+    require "neovide"
+end
 require "keymaps"
