@@ -9,7 +9,7 @@ vim.opt.listchars = { space = '·', tab = '↹ ' }
 
 vim.opt.wrap = true
 vim.opt.scrolloff = 8
-vim.opt.fillchars = "eob: "
+vim.opt.fillchars = { eob = ' '}
 
 vim.opt.hlsearch = false
 vim.opt.incsearch = true

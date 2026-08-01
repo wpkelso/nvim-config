@@ -1,6 +1,7 @@
 require "opts"
 require "launch"
 
+spec("plugin.autopairs")
 spec("plugin.colorscheme")
 spec("plugin.gitsigns")
 spec("plugin.lspconfig")
@@ -15,5 +16,6 @@ require "lazy-nvim"
 require "lsp"
 lang("clangd")
 lang("pylsp")
+lang("lua-ls")
 
 require "keymaps"

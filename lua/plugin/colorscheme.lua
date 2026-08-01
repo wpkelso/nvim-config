@@ -1,5 +1,7 @@
 local M = {
-    "wpkelso/argonoct-neovim",
+    --"wpkelso/argonoct-neovim",
+    dir = "~/Projects/argonoct-neovim",
+    name = 'argonoct',
     lazy = false,
     priority = 1000,
 }
